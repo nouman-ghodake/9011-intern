@@ -14,7 +14,7 @@ public class AA {
 
     for (ArrayList<String> alinnerwali : albaharwali) {
       for (String actors : alinnerwali) {
-        if (!actors.startsWith("a")){
+        if (!actors.contains("A")){
           System.out.println(actors);
         }
       }
